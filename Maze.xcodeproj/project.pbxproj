@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B360034221F364F00FA9596 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B360033221F364F00FA9596 /* main.cpp */; };
+		1B36003D221F36D100FA9596 /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B36003C221F36D100FA9596 /* Maze.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		1B360030221F364F00FA9596 /* Maze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maze; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B360033221F364F00FA9596 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1B36003A221F368400FA9596 /* Keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		1B36003B221F36A900FA9596 /* Maze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		1B36003C221F36D100FA9596 /* Maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
+		1B36003E221F36EA00FA9596 /* MazeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MazeData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				1B360033221F364F00FA9596 /* main.cpp */,
+				1B36003A221F368400FA9596 /* Keyboard.h */,
+				1B36003B221F36A900FA9596 /* Maze.h */,
+				1B36003C221F36D100FA9596 /* Maze.cpp */,
+				1B36003E221F36EA00FA9596 /* MazeData.h */,
 			);
 			path = Maze;
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B36003D221F36D100FA9596 /* Maze.cpp in Sources */,
 				1B360034221F364F00FA9596 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
